@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport Habit Tracker</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+<body class="bg-gray-900 text-white p-4">
+    <div class="max-w-md mx-auto bg-gray-800 rounded-xl shadow-md overflow-hidden">
+        <div class="p-8">
+            <h1 class="text-2xl font-medium text-white mb-4">Sport Habit Tracker</h1>
+            <div class="mb-4">
+                <label for="view-date" class="block text-lg font-medium text-gray-300">Select Date</label>
+                <input type="date" id="view-date" class="mt-1 block w-full border border-gray-600 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 text-lg bg-gray-700 text-white">
+            </div>
+            <ul id="habit-list" class="space-y-2">
+                <!-- Habit items will be displayed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
